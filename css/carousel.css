@@ -86,3 +86,25 @@
   text-transform: uppercase;
   color: #fff;
 }
+
+
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 0px;
+  }
+
+  .testimonials-photo {
+    position: relative;
+    height: 350px;
+    width: 50%;
+  }
+
+  .testimonials-img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .testimonials-content {
+    padding-left: 20px;
+  }
+} 
