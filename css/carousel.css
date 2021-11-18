@@ -107,4 +107,28 @@
   .testimonials-content {
     padding-left: 20px;
   }
+
+  .testimonials-text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+
+  .testimonials {
+    
+  }
+  
+  .testimonials-item{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+  }
+ 
+  .testimonials-author {
+    font-weight: 700;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #fff;
+  }
 } 
