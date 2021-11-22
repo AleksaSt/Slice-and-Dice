@@ -113,22 +113,59 @@
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 
+  .testimonials-photo {
+    position: relative;
+    height: 320px;
+    width: 100%;
+  }
 
-  .testimonials {
-    
+  .testimonials-img {
+    width: 100%;
   }
-  
-  .testimonials-item{
-    display: block;
-    font-family: 'Raleway', sans-serif;
+
+  .testimonials-content {
+    width: 70%;
+    padding-left: 10px;
   }
- 
+
+  .testimonials-text {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
   .testimonials-author {
-    font-weight: 700;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #fff;
+    margin-bottom: 10px;
+  }
+} 
+
+@media (max-width: 480px) {
+
+  .testimonials-photo {
+    position: relative;
+    height: 300px;
+    width: 100%;
+  }
+
+  .testimonials-img {
+    width: 100%;
+  }
+
+  .testimonials-content {
+    width: 80%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .testimonials-text {
+    text-align: center;
+    margin-left: 130px;
+  }
+
+  .testimonials-author {
+    margin-bottom: 10px;
+    margin-left: 100px;
   }
 } 
